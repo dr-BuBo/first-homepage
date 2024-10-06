@@ -1,0 +1,81 @@
+<!-- Based on Mobile-First Responsive Build (with CSS Grid) by Shaun Pelling - The Net Ninja (2020)
+see: https://www.youtube.com/watch?v=PM3XW_1RAIs&list=PL4cUxeGkcC9hH1tAjyUPZPjbj-7s200a4&index=1 -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Buttyán Botond</title>
+  </head>
+  <body>
+    <!--nav class="site-nav grid">
+      <h1>Buttyán Botond</h1>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav-->
+    <nav class="active" id="nav">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="icon" id="toggle">
+        <div class="line line1"></div>
+        <div class="line line2"></div>
+      </button>
+    </nav>
+    <script src="script.js"></script>
+ 
+    <section id="about" class="grid">
+      <div class="welcome-text">
+        <h1>Buttyán Botond</h1>
+        <p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
+        <p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
+        <p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
+        <p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
+        <p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
+        <p class="leading">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In commodo consequat.</p>
+
+      </div>
+      <div class="welcome-img">
+        <img  src="my_picture.png" alt="my picture" style="width: 120%">
+      </div>
+    </section>
+    <section id="portfolio">
+      <h3>Some of my Projects</h3>
+      <div class="projects grid">
+        <a href="#">
+          <img src="animals.png" alt="animals image">
+          <h4>_Animals_</h4>
+        </a>
+        <a href="#">
+          <img src="merch.png" alt="merchandise image">
+          <h4>Merchandise</h4>
+        </a>
+        <a href="#">
+          <img src="artworks.png" alt="artworks image">
+          <h4>Artworks</h4>
+        </a>
+      </div>
+    </section>
+    <section id="contact">
+      <h3>Get In Touch</h3>
+      <p class="leading">email: botond.buttyan@gmail.com</p>
+    </section>
+    <footer>
+      <div class="grid">
+        <p class="copyright">Copyright 2024 Buttyán Botond</p>
+        <ul class="social">
+          <li><a href="#"><img src="https://raw.githubusercontent.com/iamshaunjp/responsive-css-grid-build/847f0a24fecf4aba7cd205a09b7a52b7924766cf/assets/icon_fb.svg" alt="facebook"></a></li>
+          <li><a href="#"><img src="https://raw.githubusercontent.com/iamshaunjp/responsive-css-grid-build/847f0a24fecf4aba7cd205a09b7a52b7924766cf/assets/icon_tw.svg" alt="twitter"></a></li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+  </html>
+</html>
